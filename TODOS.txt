@@ -1,0 +1,6 @@
+### TODOS ###
+
+* make a map. 
+DONE: has to be in /opt/ros/indigo/share/turtlebot_gazebo/worlds under the name turtleplan.world.
+
+* load this map with world_turtleplan.launch
