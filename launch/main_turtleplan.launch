@@ -3,7 +3,8 @@
 
 	<!-- turtlebot simulation -->
 	<include file="$(find project_turtleplan)/launch/world_turtleplan.launch" >
-		    <arg name="world_file" value="$(find turtlebot_gazebo)/worlds/project-world-2.world"/>
+		   <!-- remove when safe.
+		   	<arg name="world_file" value="$(find turtlebot_gazebo)/worlds/turtleplan.world"/>-->
 	</include>
 	<include file="$(find turtlebot_gazebo)/launch/amcl_demo.launch" >
 	</include>
