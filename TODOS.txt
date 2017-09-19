@@ -1,6 +1,8 @@
 ### TODOS ###
 
-* 
+* study the rosplan structure and inplement it on newNav launch file.
+  - make an interfaced[..].launch file
+  
 
 * make a new map based on the model:
 	load world with:
@@ -13,14 +15,14 @@
 	milestones:
 	~~~~~~~~~~~
 	 v build a world
-	 - build a launch file to load turtlebot to the world
-	 - map the world and save it
+	 v build a launch file to load turtlebot to the world
+	 v map the world and save it
 
 
 * try navigate in a different world
   V make a new world
   V map the new world
-  - try navigate in the new world
+  v try navigate in the new world
 
 * load saved map
   - search internet

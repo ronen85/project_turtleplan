@@ -15,7 +15,7 @@
 
 <!-- start amcl -->
 <include file="$(find turtlebot_gazebo)/launch/amcl_demo.launch">
-	<arg name="map_file" value="$(find project_turtleplan)/maps/turtlePlan7.yaml"/>
+	<arg name="map_file" value="$(find project_turtleplan)/maps/turtlePlan.7yaml"/>
 	<!--<arg name="initial_pose_x" default="1.0"/>
   	<arg name="initial_pose_y" default="-1.0"/>
   	<arg name="initial_pose_a" default="0.0"/> -->

@@ -1,6 +1,9 @@
 (define (domain turtlebot_demo)
 
-(:requirements :strips :typing :fluents :disjunctive-preconditions :durative-actions)
+(:requirements 
+	:strips :typing :fluents 
+	:disjunctive-preconditions :durative-actions)
+
 
 (:types
 	waypoint 
