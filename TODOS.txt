@@ -1,4 +1,14 @@
-### TODOS ###
+### TODOS ### 
+
+* 
+
+* the new launch file can:
+  - load a world
+  - spawn turtlebot
+  - load a map
+  - navigate in the world
+  launch it with the command:
+  roslaunch project_turtleplan newNav_turtleplan.launch
 
 * study the rosplan structure and inplement it on newNav launch file.
   - make an interfaced[..].launch file
