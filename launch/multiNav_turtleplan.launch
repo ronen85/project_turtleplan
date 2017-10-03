@@ -10,12 +10,6 @@
 </include>
 
 
-<!-- <include file="$(find project_turtleplan)/launch/spawnTurtle_turtleplan.launch">
-	<arg name="initial_pose" value="-x 0 -y 0 -z 0"/>
-</include>
- -->
-
-
 <!-- start rviz -->
 <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find turtlebot_rviz_launchers)/rviz/navigation.rviz"/>  -->
 

@@ -8,7 +8,7 @@
 
   <!-- BEGIN ROBOT 1-->
   <group ns="robot1">
-    <param name="tf_prefix" value="robot1_tf" />
+    <param name="tf_prefix" value="robot1" />
     <include file="$(find project_turtleplan)/launch/spawnOneTurtle.launch" >
       <arg name="initial_pose" value="-x 0 -y 0 -z 0" />
       <arg name="robot_name"  value="Robot1" />
@@ -17,7 +17,7 @@
 
   <!-- BEGIN ROBOT 2-->
   <group ns="robot2">
-    <param name="tf_prefix" value="robot2_tf" />
+    <param name="tf_prefix" value="robot2" />
     <include file="$(find project_turtleplan)/launch/spawnOneTurtle.launch" >
       <arg name="initial_pose" value="-x 0 -y -2 -z 0" />
       <arg name="robot_name"  value="Robot2" />
@@ -26,7 +26,7 @@
 
   <!-- BEGIN ROBOT 3-->
   <group ns="robot3">
-    <param name="tf_prefix" value="robot3_tf" />
+    <param name="tf_prefix" value="robot3" />
     <include file="$(find project_turtleplan)/launch/spawnOneTurtle.launch" >
       <arg name="initial_pose" value="-x 0 -y -4 -z 0" />
       <arg name="robot_name"  value="Robot3" />
