@@ -1,4 +1,5 @@
-<launch>
+<?xml version="1.0" encoding="UTF-8"?>
+<launch> 
     <!-- arguments -->
     <arg name="robot_name"/>
     <arg name="init_pose_x"/>
@@ -8,7 +9,7 @@
     <!-- CALL TF -->   
     <node pkg="tf" type="static_transform_publisher" name="static_publisher" ns="$(arg robot_name)" args="0 0 0 0 0 0 /world $(arg robot_name)_tf/map 100"/> 
     <!-- MAP SERVER -->
-    <arg name="map_file" default="$(env TURTLEBOT_GAZEBO_MAP_FILE)"/>    
+    <arg name="map_file" value="$(find project_turtleplan)/maps/turtlePlan7.yaml"/>
     <node name="map_server" pkg="map_server" type="map_server" ns="$(arg robot_name)" args="$(arg map_file)" >
         <param name="frame_id" value="$(arg robot_name)_tf/map" />
     </node>

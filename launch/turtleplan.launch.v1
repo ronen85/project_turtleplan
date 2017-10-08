@@ -1,6 +1,6 @@
 <launch>
 
-	<include file="$(find project_turtleplan)/launch/bringTurtles/bring_main.launch">
+	<include file="$(find project_turtleplan)/launch/newNav_turtleplan.launch">
 	</include> 
 
 	<!-- data paths -->
@@ -10,8 +10,7 @@
 	<!-- domain file --> 
 	<!-- TODO: 
 	v need to update domain path
-	v need to update domain to support multiple agents
-	- need to update domain to support concurrent actions -->
+	v need to update domain to support multiple agents -->
 	<param name="/rosplan/domain_path" value="$(find project_turtleplan)/common/domain-2.pddl" />
 
 	<!-- knowledge base -->
@@ -43,5 +42,7 @@
 
 	<!-- interfaces -->
 	<node name="turtle_rosplan" pkg="project_turtleplan" type="turtle_rosplan.py" respawn="false" output="screen" />
+
+
 
 </launch>
