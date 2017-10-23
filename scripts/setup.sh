@@ -491,3 +491,40 @@ knowledge:
   - {key: 'v', value: 'robot3'}
   - {key: 'wp', value: 'c3'}
   function_value: 0.0";
+
+
+# add goal (visited robot1 b2)
+rosservice call /kcl_rosplan/update_knowledge_base "update_type: 1
+knowledge:
+  knowledge_type: 1
+  instance_type: ''
+  instance_name: ''
+  attribute_name: 'visited'
+  values:
+  - {key: 'v', value: 'robot1'}
+  - {key: 'wp', value: 'b2'}
+  function_value: 0.0";
+
+# add goal (visited robot2 b2)
+rosservice call /kcl_rosplan/update_knowledge_base "update_type: 1
+knowledge:
+  knowledge_type: 1
+  instance_type: ''
+  instance_name: ''
+  attribute_name: 'visited'
+  values:
+  - {key: 'v', value: 'robot2'}
+  - {key: 'wp', value: 'b2'}
+  function_value: 0.0";
+
+# add goal (visited robot3 b2)
+rosservice call /kcl_rosplan/update_knowledge_base "update_type: 1
+knowledge:
+  knowledge_type: 1
+  instance_type: ''
+  instance_name: ''
+  attribute_name: 'visited'
+  values:
+  - {key: 'v', value: 'robot3'}
+  - {key: 'wp', value: 'b2'}
+  function_value: 0.0";
